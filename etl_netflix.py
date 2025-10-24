@@ -22,7 +22,7 @@ df = df[columns]
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="230606",  
+    password="password",  
     database="netflix_db"
 )
 cursor = conn.cursor()
